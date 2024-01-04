@@ -47,6 +47,11 @@
 			<version>5.1.49</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.aswin.spring</groupId>
+			<artifactId>springCore</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>
