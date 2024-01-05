@@ -1,5 +1,6 @@
 package com.aswin.spring.springmvcorm.user.services;
 
+import java.util.Collections;
 import java.util.List;
 
 import javax.transaction.Transactional;
@@ -33,7 +34,8 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public List<User> getUsers() {
-
-		return dao.findUsers();
+		List<User> users = dao.findUsers();
+		Collections.sort(users);
+		return users;
 	}
 }
