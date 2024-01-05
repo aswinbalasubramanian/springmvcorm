@@ -1,0 +1,6 @@
+com\aswin\spring\springmvcorm\user\dao\impl\UserDaoImpl.class
+com\aswin\spring\springmvcorm\user\entity\User.class
+com\aswin\spring\springmvcorm\user\services\UserServiceImpl.class
+com\aswin\spring\springmvcorm\user\controller\UserController.class
+com\aswin\spring\springmvcorm\user\dao\UserDao.class
+com\aswin\spring\springmvcorm\user\services\UserService.class
