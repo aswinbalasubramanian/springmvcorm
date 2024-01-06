@@ -12,7 +12,7 @@ import com.aswin.spring.springmvcorm.user.dao.UserDao;
 @Repository
 public class UserDaoImpl implements UserDao {
 	@Autowired
-	HibernateTemplate hibernateTemplate;
+	private HibernateTemplate hibernateTemplate;
 
 	public HibernateTemplate getHibernateTemplate() {
 		return hibernateTemplate;
